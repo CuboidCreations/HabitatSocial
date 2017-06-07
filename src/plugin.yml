@@ -1,0 +1,19 @@
+# HabitatSocial plugin.yml
+name: HabitatSocial
+main: com.gmail.Xeiotos.HabitatSocial.HabitatSocial
+version: 0.0.1
+depend: [HabitatAPI]
+
+commands:
+   register:
+      description: Register to AtmoSphere
+      usage: /register
+      permission-message: You don't have permission to do this!
+   friend:
+      description: Friend-related commands
+      usage: /friend
+      permission-message: You don't have permission to do this!
+   party:
+      description: Party-related commands
+      usage: /party
+      permission-message: You don't have permission to do this!
